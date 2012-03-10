@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0102DDD150B9983003B0038 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0102DDC150B9983003B0038 /* UIKit.framework */; };
+		E0102DDF150B9983003B0038 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0102DDE150B9983003B0038 /* Foundation.framework */; };
+		E0102DE1150B9983003B0038 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0102DE0150B9983003B0038 /* CoreGraphics.framework */; };
+		E0102DE7150B9983003B0038 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0102DE5150B9983003B0038 /* InfoPlist.strings */; };
+		E0102DE9150B9984003B0038 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0102DE8150B9984003B0038 /* main.m */; };
+		E0102DED150B9984003B0038 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0102DEC150B9984003B0038 /* AppDelegate.m */; };
+		E0102DF0150B9984003B0038 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0102DEF150B9984003B0038 /* ViewController.m */; };
+		E0102DF3150B9984003B0038 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0102DF1150B9984003B0038 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E0102DD8150B9983003B0038 /* PierreFeuilleCiseau.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PierreFeuilleCiseau.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0102DDC150B9983003B0038 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E0102DDE150B9983003B0038 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E0102DE0150B9983003B0038 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E0102DE4150B9983003B0038 /* PierreFeuilleCiseau-Info.plist */ = {isa = PBXFileReference; path = "PierreFeuilleCiseau-Info.plist"; sourceTree = "<group>"; };
+		E0102DE6150B9983003B0038 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E0102DE8150B9984003B0038 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0102DEA150B9984003B0038 /* PierreFeuilleCiseau-Prefix.pch */ = {isa = PBXFileReference; path = "PierreFeuilleCiseau-Prefix.pch"; sourceTree = "<group>"; };
+		E0102DEB150B9984003B0038 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0102DEC150B9984003B0038 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E0102DEE150B9984003B0038 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E0102DEF150B9984003B0038 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E0102DF2150B9984003B0038 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0102DD5150B9983003B0038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0102DDD150B9983003B0038 /* UIKit.framework in Frameworks */,
+				E0102DDF150B9983003B0038 /* Foundation.framework in Frameworks */,
+				E0102DE1150B9983003B0038 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0102DCD150B9983003B0038 = {
+			isa = PBXGroup;
+			children = (
+				E0102DE2150B9983003B0038 /* PierreFeuilleCiseau */,
+				E0102DDB150B9983003B0038 /* Frameworks */,
+				E0102DD9150B9983003B0038 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0102DD9150B9983003B0038 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0102DD8150B9983003B0038 /* PierreFeuilleCiseau.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0102DDB150B9983003B0038 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0102DDC150B9983003B0038 /* UIKit.framework */,
+				E0102DDE150B9983003B0038 /* Foundation.framework */,
+				E0102DE0150B9983003B0038 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0102DE2150B9983003B0038 /* PierreFeuilleCiseau */ = {
+			isa = PBXGroup;
+			children = (
+				E0102DEB150B9984003B0038 /* AppDelegate.h */,
+				E0102DEC150B9984003B0038 /* AppDelegate.m */,
+				E0102DEE150B9984003B0038 /* ViewController.h */,
+				E0102DEF150B9984003B0038 /* ViewController.m */,
+				E0102DF1150B9984003B0038 /* ViewController.xib */,
+				E0102DE3150B9983003B0038 /* Supporting Files */,
+			);
+			path = PierreFeuilleCiseau;
+			sourceTree = "<group>";
+		};
+		E0102DE3150B9983003B0038 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0102DE4150B9983003B0038 /* PierreFeuilleCiseau-Info.plist */,
+				E0102DE5150B9983003B0038 /* InfoPlist.strings */,
+				E0102DE8150B9984003B0038 /* main.m */,
+				E0102DEA150B9984003B0038 /* PierreFeuilleCiseau-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0102DD7150B9983003B0038 /* PierreFeuilleCiseau */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0102DF6150B9984003B0038 /* Build configuration list for PBXNativeTarget "PierreFeuilleCiseau" */;
+			buildPhases = (
+				E0102DD4150B9983003B0038 /* Sources */,
+				E0102DD5150B9983003B0038 /* Frameworks */,
+				E0102DD6150B9983003B0038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PierreFeuilleCiseau;
+			productName = PierreFeuilleCiseau;
+			productReference = E0102DD8150B9983003B0038 /* PierreFeuilleCiseau.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0102DCF150B9983003B0038 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E0102DD2150B9983003B0038 /* Build configuration list for PBXProject "PierreFeuilleCiseau" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E0102DCD150B9983003B0038;
+			productRefGroup = E0102DD9150B9983003B0038 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0102DD7150B9983003B0038 /* PierreFeuilleCiseau */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0102DD6150B9983003B0038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0102DE7150B9983003B0038 /* InfoPlist.strings in Resources */,
+				E0102DF3150B9984003B0038 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0102DD4150B9983003B0038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0102DE9150B9984003B0038 /* main.m in Sources */,
+				E0102DED150B9984003B0038 /* AppDelegate.m in Sources */,
+				E0102DF0150B9984003B0038 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E0102DE5150B9983003B0038 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0102DE6150B9983003B0038 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E0102DF1150B9984003B0038 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0102DF2150B9984003B0038 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0102DF4150B9984003B0038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E0102DF5150B9984003B0038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0102DF7150B9984003B0038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PierreFeuilleCiseau/PierreFeuilleCiseau-Prefix.pch";
+				INFOPLIST_FILE = "PierreFeuilleCiseau/PierreFeuilleCiseau-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E0102DF8150B9984003B0038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PierreFeuilleCiseau/PierreFeuilleCiseau-Prefix.pch";
+				INFOPLIST_FILE = "PierreFeuilleCiseau/PierreFeuilleCiseau-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0102DD2150B9983003B0038 /* Build configuration list for PBXProject "PierreFeuilleCiseau" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0102DF4150B9984003B0038 /* Debug */,
+				E0102DF5150B9984003B0038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0102DF6150B9984003B0038 /* Build configuration list for PBXNativeTarget "PierreFeuilleCiseau" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0102DF7150B9984003B0038 /* Debug */,
+				E0102DF8150B9984003B0038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0102DCF150B9983003B0038 /* Project object */;
+}
