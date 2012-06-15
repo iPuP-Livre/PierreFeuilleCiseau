@@ -15,6 +15,7 @@
 		E0102DED150B9984003B0038 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0102DEC150B9984003B0038 /* AppDelegate.m */; };
 		E0102DF0150B9984003B0038 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0102DEF150B9984003B0038 /* ViewController.m */; };
 		E0102DF3150B9984003B0038 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0102DF1150B9984003B0038 /* ViewController.xib */; };
+		E0102DFA150B9A0F003B0038 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0102DF9150B9A0F003B0038 /* GameKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,16 @@
 		E0102DDC150B9983003B0038 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E0102DDE150B9983003B0038 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E0102DE0150B9983003B0038 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E0102DE4150B9983003B0038 /* PierreFeuilleCiseau-Info.plist */ = {isa = PBXFileReference; path = "PierreFeuilleCiseau-Info.plist"; sourceTree = "<group>"; };
+		E0102DE4150B9983003B0038 /* PierreFeuilleCiseau-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PierreFeuilleCiseau-Info.plist"; sourceTree = "<group>"; };
 		E0102DE6150B9983003B0038 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E0102DE8150B9984003B0038 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E0102DEA150B9984003B0038 /* PierreFeuilleCiseau-Prefix.pch */ = {isa = PBXFileReference; path = "PierreFeuilleCiseau-Prefix.pch"; sourceTree = "<group>"; };
-		E0102DEB150B9984003B0038 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0102DEA150B9984003B0038 /* PierreFeuilleCiseau-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PierreFeuilleCiseau-Prefix.pch"; sourceTree = "<group>"; };
+		E0102DEB150B9984003B0038 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0102DEC150B9984003B0038 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E0102DEE150B9984003B0038 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E0102DEE150B9984003B0038 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E0102DEF150B9984003B0038 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E0102DF2150B9984003B0038 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E0102DF9150B9A0F003B0038 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0102DFA150B9A0F003B0038 /* GameKit.framework in Frameworks */,
 				E0102DDD150B9983003B0038 /* UIKit.framework in Frameworks */,
 				E0102DDF150B9983003B0038 /* Foundation.framework in Frameworks */,
 				E0102DE1150B9983003B0038 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +70,7 @@
 		E0102DDB150B9983003B0038 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E0102DF9150B9A0F003B0038 /* GameKit.framework */,
 				E0102DDC150B9983003B0038 /* UIKit.framework */,
 				E0102DDE150B9983003B0038 /* Foundation.framework */,
 				E0102DE0150B9983003B0038 /* CoreGraphics.framework */,
